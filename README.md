@@ -1,5 +1,5 @@
 # angular-starter-bootstrap
-- Date : 03/12/2018 14:36
+- Date : 06/12/2018 12:34
 - Author : chendra
 
 # Prerequisites
@@ -9,6 +9,9 @@
 - Typescript version 3.1.6
 - node.js version 10.14.1 LTS (Long Term Support)
 - npm (node package manager) version 6.4.1
+- Jquery version 3.3.1
+- Bootstrap version 4.1.3
+- Fontawesome version 4.7.0
 
 # Installation
 - npm install (installing dependencies)
