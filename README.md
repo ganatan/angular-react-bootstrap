@@ -1,10 +1,10 @@
 # angular-starter-bootstrap
-- Date : 06/12/2018 13:44
+- Date : 13/12/2018 14:53
 - Author : chendra
 
 # Prerequisites
-- Angular version 7.1.1
-- Angular-cli version 7.1.0
+- Angular version 7.1.3
+- Angular-cli version 7.1.3
 - Visual studio code version 1.29.1
 - Typescript version 3.1.6
 - node.js version 10.14.1 LTS (Long Term Support)
