@@ -1,16 +1,17 @@
 # angular-starter-bootstrap
-- Date : 23/12/2018 08:50
+- Date : 13/02/2019 08:59
 - Author : danny ganatan
 
 # Prerequisites
-- Angular version 7.1.4
-- Angular-cli version 7.1.4
-- Visual studio code version 1.29.1
-- Typescript version 3.1.6
-- node.js version 10.14.1 LTS (Long Term Support)
-- npm (node package manager) version 6.4.1
+
+- Angular version 7.2.4
+- Angular-cli version 7.3.1
+- Visual studio code version 1.30.2
+- Typescript version 3.2.4
+- node.js version 10.15.1 LTS (Long Term Support)
+- npm (node package manager) version 6.5.0
 - Jquery version 3.3.1
-- Bootstrap version 4.2.1
+- Bootstrap version 4.3.0
 - Fontawesome version 4.7.0
 
 # Installation
@@ -38,4 +39,5 @@
 
 # Tutorials
 - https://www.ganatan.com/tutorials/angular-bootstrap
+
 - https://www.ganatan.com/docs
