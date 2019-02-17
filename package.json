@@ -19,10 +19,10 @@
     "@angular/platform-browser": "7.2.5",
     "@angular/platform-browser-dynamic": "7.2.5",
     "@angular/router": "7.2.5",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "4.3.1",
     "core-js": "2.6.5",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
+    "font-awesome": "4.7.0",
+    "jquery": "3.3.1",
     "rxjs": "6.4.0",
     "tslib": "1.9.3",
     "zone.js": "0.8.29"
