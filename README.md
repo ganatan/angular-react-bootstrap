@@ -32,7 +32,7 @@
 - npm run e2e
 
 # Tutorials
-- https://www.ganatan.com/tutorials/lazy-loading-et-angular
+- https://www.ganatan.com/tutorials/bootstrap-et-angular
 
 - https://www.ganatan.com/docs
 
