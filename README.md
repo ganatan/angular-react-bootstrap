@@ -74,4 +74,4 @@ What you need to run this app:
 * Website : https://www.ganatan.com/guide
 
 ### Tutorials
-* https://www.ganatan.com/tutorials/bootstrap-et-angular
+* https://www.ganatan.com/tutorials/bootstrap-avec-angular
