@@ -22,7 +22,7 @@
 git clone https://github.com/ganatan/angular-starter-bootstrap
 
 # change directory
-cd angular-starter
+cd angular-starter-bootstrap
 
 # install the repo with npm
 npm install
@@ -57,8 +57,7 @@ What you need to run this app:
 * `npm run start`
 *  in your browser [http://localhost:4200](http://localhost:4200) 
 
-
-### Compilation 
+### Production 
 * `npm run build`
 * `http-server -p 8080 -c-1 dist/angular-starter`
 *  in your browser [http://localhost:8080](http://localhost:8080) 
