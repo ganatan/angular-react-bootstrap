@@ -68,9 +68,10 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 15/05/2019
+* Updated : 21/05/2019
 * Author  : danny ganatan
 
 ### Documentation
 * Guide    : https://www.ganatan.com/angular
+
 * Tutorial : https://www.ganatan.com/tutorials/bootstrap-avec-angular
