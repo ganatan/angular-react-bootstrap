@@ -1,4 +1,4 @@
-# Angular 7 Starter - Bootstrap
+# Angular 8 Starter - Bootstrap
 
 
 > An Angular starter kit featuring [Angular 8.0.0](https://angular.io), [Angular-cli 8.0.0](https://cli.angular.io/)
