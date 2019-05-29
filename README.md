@@ -46,7 +46,7 @@ What you need to run this app:
 * npm (node package manager) version 6.9.0
 * Jquery version 3.4.1
 * Bootstrap version 4.3.1
-* Fontawesome version 5.8.5
+* Fontawesome version 5.8.2
 
 
 ### Installation
