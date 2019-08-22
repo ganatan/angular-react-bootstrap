@@ -8,11 +8,11 @@ const routes: Routes = [
   { path: '', component: HomeComponent, },
   {
     path: 'about',
-    loadChildren: './modules/general/about/about.module#AboutModule' ,
+    loadChildren: './modules/general/about/about.module#AboutModule',
   },
   {
     path: 'contact',
-    loadChildren: './modules/general/contact/contact.module#ContactModule' ,
+    loadChildren: './modules/general/contact/contact.module#ContactModule',
   },
   { path: '**', component: NotFoundComponent }
 ];
