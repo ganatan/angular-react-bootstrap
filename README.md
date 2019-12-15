@@ -1,6 +1,6 @@
-# Angular 8 Example Lazy loading
+# Angular 8 Example Bootstrap
 
-> An Angular starter kit featuring [Angular 8.2.14](https://angular.io), [Angular CLI 8.3.20](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 8.2.14](https://angular.io), [Angular CLI 8.3.19](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -24,10 +24,10 @@
 
 ```bash
 # clone the repo
-git clone https://github.com/ganatan/angular-example-lazy.git
+git clone https://github.com/ganatan/angular-example-bootstrap.git
 
 # change directory
-cd angular-example-lazy
+cd angular-example-bootstrap
 
 # install the repo with npm
 npm install
@@ -41,10 +41,14 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 ### Prerequisites
 What you need to run this app:
 * Angular version 8.2.14
-* Angular CLI version 8.3.20
+* Angular CLI version 8.3.19
 * Typescript version 3.5.3
-* Node.js version 12.13.1 LTS (Long Term Support)
-* npm (node package manager) version 6.12.1
+* Node.js version 12.13.0 LTS (Long Term Support)
+* npm (node package manager) version 6.12.0
+
+* Jquery version 3.4.1
+* Bootstrap version 4.3.1
+* Fontawesome version 5.11.2
 
 ## Getting Started
 
@@ -66,15 +70,15 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 15/12/2019
-* Author  : danny
+* Updated : 15/12/19
+* Author  : danny ganatan
 
 ### Documentation
 
 English Tutorials
-- Installation - https://www.ganatan.com/tutorials/lazy-loading-with-angular
+- Installation - https://www.ganatan.com/tutorials/bootstrap-with-angular
 - Tutorials Step by Step - https://www.ganatan.com/tutorials/en
 
 Tutoriels en français
-- Installation - https://www.ganatan.com/tutorials/lazy-loading-avec-angular
+- Installation - https://www.ganatan.com/tutorials/bootstrap-avec-angular
 - Tutoriels Etape par étape - https://www.ganatan.com/tutorials
