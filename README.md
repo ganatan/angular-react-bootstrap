@@ -8,7 +8,7 @@
 * [Step 2 : Example Routing](https://github.com/ganatan/angular-example-routing)
 * [Step 3 : Example Lazy-loading](https://github.com/ganatan/angular-example-lazy-loading)
 * [Step 4 : Example Bootstrap](https://github.com/ganatan/angular-example-bootstrap)
-* [Step 5 : Example Features](https://github.com/ganatan/angular-features)
+* [Step 5 : Example Features](https://github.com/ganatan/angular-example-features)
 * [Step 6 : Example Server Side Rendering](https://github.com/ganatan/angular-example-ssr)
 * [Step 7 : Example HTTP Client](https://github.com/ganatan/angular-example-httpclient)
 * [Step 8 : Example Transfer State](https://github.com/ganatan/angular-example-transferstate)
@@ -43,12 +43,12 @@ What you need to run this app:
 * Angular version 8.2.14
 * Angular CLI version 8.3.20
 * Typescript version 3.5.3
-* Node.js version 12.13.0 LTS (Long Term Support)
-* npm (node package manager) version 6.12.0
+* Node.js version 12.13.1 LTS (Long Term Support)
+* npm (node package manager) version 6.12.1
 
 * Jquery version 3.4.1
-* Bootstrap version 4.3.1
-* Fontawesome version 5.11.2
+* Bootstrap version 4.4.1
+* Fontawesome version 5.12.0
 
 ## Getting Started
 
@@ -70,14 +70,14 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 15/12/19
-* Author  : danny ganatan
+* Updated : 16/12/19
+* Author  : danny
 
 ### Documentation
 
 English Tutorials
 - Installation - https://www.ganatan.com/tutorials/bootstrap-with-angular
-- Tutorials Step by Step - https://www.ganatan.com/tutorials/en
+- Tutorials Step-by-Step - https://www.ganatan.com/tutorials/en
 
 Tutoriels en français
 - Installation - https://www.ganatan.com/tutorials/bootstrap-avec-angular
