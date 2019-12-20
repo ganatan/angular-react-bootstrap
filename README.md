@@ -1,6 +1,6 @@
 # Angular 8 Example Bootstrap
 
-> An Angular starter kit featuring [Angular 8.2.14](https://angular.io), [Angular CLI 8.3.20](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 8.2.14](https://angular.io), [Angular CLI 8.3.21](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -18,7 +18,10 @@
 * [Step 11 : Angular 8 Application](https://github.com/ganatan/angular8-app)
 
 # Web Application Live Demo
-[https://angular.ganatan.com](https://angular.ganatan.com)
+<a href="https://angular.ganatan.com/">
+  <img src="https://media.giphy.com/media/RfqiR12yhtHpwaItBq/giphy.gif" alt="Angular 8 Example Application"/>
+</a>
+
 
 ## Quick start
 
@@ -41,7 +44,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 ### Prerequisites
 What you need to run this app:
 * Angular version 8.2.14
-* Angular CLI version 8.3.20
+* Angular CLI version 8.3.21
 * Typescript version 3.5.3
 * Node.js version 12.13.1 LTS (Long Term Support)
 * npm (node package manager) version 6.12.1
@@ -70,7 +73,7 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 18/12/19
+* Updated : 20/12/19
 * Author  : danny
 
 ### Documentation
