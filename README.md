@@ -42,12 +42,12 @@ npm start
 in your browser go to [http://localhost:4200](http://localhost:4200) 
 
 ### Prerequisites
-What you need to run this app:
+What do you need to run this app:
 * Angular version 8.2.14
 * Angular CLI version 8.3.21
 * Typescript version 3.5.3
-* Node.js version 12.13.1 LTS (Long Term Support)
-* npm (node package manager) version 6.12.1
+* Node.js version 12.14.0 LTS (Long Term Support)
+* npm (node package manager) version 6.13.4
 
 * Jquery version 3.4.1
 * Bootstrap version 4.4.1
@@ -73,7 +73,7 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 20/12/19
+* Updated : 21/12/19
 * Author  : danny
 
 ### Documentation
