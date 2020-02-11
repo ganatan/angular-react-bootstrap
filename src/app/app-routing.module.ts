@@ -8,15 +8,18 @@ const routes: Routes = [
   { path: '', component: HomeComponent, },
   {
     path: 'about',
-    loadChildren: () => import('./modules/general/about/about.module').then(mod => mod.AboutModule)
+    loadChildren: () => import('./modules/general/about/about.module')
+      .then(mod => mod.AboutModule)
   },
   {
     path: 'contact',
-    loadChildren: () => import('./modules/general/contact/contact.module').then(mod => mod.ContactModule)
+    loadChildren: () => import('./modules/general/contact/contact.module')
+      .then(mod => mod.ContactModule)
   },
   {
     path: 'signin',
-    loadChildren: () => import('./modules/general/signin/signin.module').then(mod => mod.SigninModule)
+    loadChildren: () => import('./modules/general/signin/signin.module')
+      .then(mod => mod.SigninModule)
   },
   { path: '**', component: NotFoundComponent }
 ];

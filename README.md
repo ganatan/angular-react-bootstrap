@@ -1,6 +1,6 @@
-# Angular 8 Example Bootstrap
+# Angular 9 Example Bootstrap
 
-> An Angular starter kit featuring [Angular 8.2.14](https://angular.io), [Angular CLI 8.3.23](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 9.0.0](https://angular.io), [Angular CLI 9.0.1](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -15,7 +15,7 @@
 * [Step 9 : Example PWA](https://github.com/ganatan/angular-example-pwa)
 * [Step 10 : Example SEO](https://github.com/ganatan/angular-example-seo)
 
-* [Step 11 : Angular 8 Application](https://github.com/ganatan/angular8-app)
+* [Step 11 : Angular 9 Application](https://github.com/ganatan/angular9-app)
 
 # Web Application Live Demo
 <a href="https://angular.ganatan.com/">
@@ -43,15 +43,15 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ### Prerequisites
 What do you need to run this app:
-* Angular version 8.2.14
-* Angular CLI version 8.3.23
-* Typescript version 3.5.3
-* Node.js version 12.14.1 LTS (Long Term Support)
-* npm (node package manager) version 6.13.6
+* Angular version 9.0.0
+* Angular CLI version 9.0.1
+* Typescript version 3.7.5
+* Node.js version 12.15.0 LTS (Long Term Support)
+* npm (node package manager) version 6.13.7
 
 * Jquery version 3.4.1
 * Bootstrap version 4.4.1
-* Fontawesome version 5.12.0
+* Fontawesome version 5.12.1
 
 ## Getting Started
 
@@ -73,7 +73,7 @@ What do you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 22/01/2020
+* Updated : 11/02/2020
 * Author  : danny
 
 ### Documentation
