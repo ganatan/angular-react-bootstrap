@@ -1,6 +1,6 @@
 # Angular 9 Example Bootstrap
 
-> An Angular starter kit featuring [Angular 9.0.1](https://angular.io), [Angular CLI 9.0.2](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 9.0.5](https://angular.io), [Angular CLI 9.0.5](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -43,11 +43,11 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ### Prerequisites
 What do you need to run this app:
-* Angular version 9.0.1
-* Angular CLI version 9.0.2
+* Angular version 9.0.5
+* Angular CLI version 9.0.5
 * Typescript version 3.7.5
-* Node.js version 12.16.0 LTS (Long Term Support)
-* npm (node package manager) version 6.13.7
+* Node.js version 12.16.1 LTS (Long Term Support)
+* npm (node package manager) version 6.14.2
 
 * Jquery version 3.4.1
 * Bootstrap version 4.4.1
@@ -73,7 +73,7 @@ What do you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 19/02/2020
+* Updated : 07/03/2020
 * Author  : danny
 
 ### Documentation
