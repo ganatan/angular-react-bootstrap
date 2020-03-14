@@ -22,7 +22,6 @@
   <img src="https://media.giphy.com/media/RfqiR12yhtHpwaItBq/giphy.gif" alt="Angular 8 Example Application"/>
 </a>
 
-
 ## Quick start
 
 ```bash
