@@ -7,9 +7,9 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
 const routes: Routes = [
   { path: '', component: HomeComponent, },
   {
-    path: 'bootstrap-components',
-    loadChildren: () => import('./modules/application/example-bootstrap-components/example-bootstrap-components.module')
-      .then(mod => mod.ExampleBootstrapComponentsModule)
+    path: 'bootstrap-prototype',
+    loadChildren: () => import('./modules/application/example-bootstrap-prototype/example-bootstrap-prototype.module')
+      .then(mod => mod.ExampleBootstrapPrototypeModule)
   },
   {
     path: 'about',
