@@ -1,6 +1,6 @@
-# Angular 9 Example Bootstrap
+# Angular 10 Example Bootstrap
 
-> An Angular starter kit featuring [Angular 9.1.9](https://angular.io), [Angular CLI 9.1.7](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 10.0.1](https://angular.io), [Angular CLI 10.0.0](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -42,12 +42,11 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ### Prerequisites
 What do you need to run this app:
-* Angular version 9.1.9
-* Angular CLI version 9.1.7
-* Typescript version 3.8.3
+* Angular version 10.0.1
+* Angular CLI version 10.0.0
 * Jquery version 3.5.1
 * Bootstrap version 4.5.0
-* Fontawesome version 5.13.0
+* Fontawesome version 5.13.1
 
 ## Getting Started
 
@@ -73,7 +72,7 @@ What do you need to run this app:
 * launch html pages in your browser
 
 ### Author
-* Updated : 08/06/2020
+* Updated : 27/06/2020
 * Author  : danny
 
 ### Documentation
