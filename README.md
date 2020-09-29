@@ -92,7 +92,7 @@ sudo apt-get install google-chrome-stable --yes
 
 
 ### Author
-* Updated : 22/09/2020
+* Updated : 29/09/2020
 * Author  : danny
 
 ### Documentation
