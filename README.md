@@ -1,6 +1,6 @@
 # Angular 10 Example Bootstrap
 
-> An Angular starter kit featuring [Angular 10.2.0](https://angular.io), [Angular CLI 10.2.0](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 10.2.2](https://angular.io), [Angular CLI 10.2.0](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -59,19 +59,6 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `npm run lint`
 * `npm run test`
 * `npm run e2e`
-
-## Chrome Installation on Linux
-
-```bash
-sudo sh -c 'echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
-
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-
-sudo apt-get update
-
-sudo apt-get install google-chrome-stable --yes
-
-```
 
 ### Prototype Bootstrap 4
 * `change directory` cd ui
