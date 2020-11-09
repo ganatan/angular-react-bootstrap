@@ -64,7 +64,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `change directory` cd ui
 * launch html pages in your browser
 
-### Prototype Bootstrap 5.0.0-alpha1
+### Prototype Bootstrap 5.0.0-alpha2
 * `change directory` cd ui-v5
 * launch html pages in your browser
 
