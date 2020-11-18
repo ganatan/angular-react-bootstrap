@@ -25,8 +25,16 @@
 ## Quick start
 
 ```bash
-# clone the repo
+# select a repo
+# download the example or clone the repo from github
 git clone https://github.com/ganatan/angular-example-bootstrap.git
+
+# download the example or clone the repo from gitlab
+git clone https://gitlab.com/ganatan/angular-example-bootstrap.git
+
+# download the example or clone the repo from bitbucket
+git clone https://bitbucket.org/ganatan/angular-example-bootstrap.git
+
 
 # change directory
 cd angular-example-bootstrap
@@ -53,7 +61,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 ### Production 
 * `npm run build`
 
-## Tests
+## Tests (Use Chrome Version 87 minimum)
 * `npm run lint`
 * `npm run test`
 * `npm run e2e`
