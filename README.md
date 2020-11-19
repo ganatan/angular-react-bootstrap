@@ -1,21 +1,8 @@
 # Angular 11 Example Bootstrap
 
-> An Angular starter kit featuring [Angular 11.0.0](https://angular.io), [Angular CLI 11.0.1](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 11.0.1](https://angular.io), [Angular CLI 11.0.2](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
-
-* [Step 1 : Example Starter](https://github.com/ganatan/angular-example-starter)
-* [Step 2 : Example Routing](https://github.com/ganatan/angular-example-routing)
-* [Step 3 : Example Lazy-loading](https://github.com/ganatan/angular-example-lazy-loading)
-* [Step 4 : Example Bootstrap](https://github.com/ganatan/angular-example-bootstrap)
-* [Step 5 : Example Modules](https://github.com/ganatan/angular-example-modules)
-* [Step 6 : Example Server Side Rendering](https://github.com/ganatan/angular-example-ssr)
-* [Step 7 : Example HTTP Client](https://github.com/ganatan/angular-example-httpclient)
-* [Step 8 : Example Transfer State](https://github.com/ganatan/angular-example-transferstate)
-* [Step 9 : Example PWA](https://github.com/ganatan/angular-example-pwa)
-* [Step 10 : Example SEO](https://github.com/ganatan/angular-example-seo)
-
-* [Angular 11 Application](https://github.com/ganatan/angular11-app)
 
 # Web Application Live Demo
 <a href="https://angular.ganatan.com/">
