@@ -1,6 +1,6 @@
 # Angular 11 Example Bootstrap
 
-> An Angular starter kit featuring [Angular 11.0.1](https://angular.io), [Angular CLI 11.0.2](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 11.0.2](https://angular.io), [Angular CLI 11.0.2](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -48,7 +48,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 ### Production 
 * `npm run build`
 
-## Tests (Use Chrome Version 87 minimum)
+## Tests
 * `npm run lint`
 * `npm run test`
 * `npm run e2e`
