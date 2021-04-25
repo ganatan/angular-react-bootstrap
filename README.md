@@ -1,6 +1,6 @@
 # Angular 11 Example Bootstrap
 
-> An Angular starter kit featuring [Angular 11.2.10](https://angular.io), [Angular CLI 11.2.9](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 11.2.11](https://angular.io), [Angular CLI 11.2.10](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
