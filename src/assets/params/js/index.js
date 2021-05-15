@@ -1,4 +1,7 @@
 var navMain = document.getElementById('navbarsExampleDefault')
-navMain.onclick = function () {
-  navMain.classList.remove("show");
+if (navMain != null) {
+  navMain.onclick = function () {
+    navMain.classList.remove("show");
+  }
 }
+
