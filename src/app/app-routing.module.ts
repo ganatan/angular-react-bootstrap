@@ -10,7 +10,7 @@ const routes: Routes = [
     path: 'bootstrap-prototype',
     loadChildren: () => import('./modules/application/example-bootstrap-prototype/example-bootstrap-prototype.module')
       .then(mod => mod.ExampleBootstrapPrototypeModule)
-  },
+  },  
   {
     path: 'contact',
     loadChildren: () => import('./modules/general/contact/contact.module')

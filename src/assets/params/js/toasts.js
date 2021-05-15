@@ -1,1 +1,0 @@
-$('#myToast').toast('show');
