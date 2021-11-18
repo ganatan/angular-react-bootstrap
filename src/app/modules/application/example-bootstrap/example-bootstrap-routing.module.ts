@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ExampleBootstrapPrototypeComponent } from './example-bootstrap-prototype.component';
+import { ExampleBootstrapComponent } from './example-bootstrap.component';
 
 import { AlertsComponent } from './alerts/items.component';
 import { BadgeComponent } from './badge/items.component';
@@ -22,7 +22,7 @@ import { ToastsComponent } from './toasts/items.component';
 
 const routes: Routes = [
   {
-    path: '', component: ExampleBootstrapPrototypeComponent, children: [
+    path: '', component: ExampleBootstrapComponent, children: [
       {
         path: '',
         loadChildren: () => import('./00-main/exercice.module')
@@ -46,7 +46,7 @@ const routes: Routes = [
       { path: 'toasts', component: ToastsComponent },
       {
         path: '',
-        redirectTo: '/bootstrap-prototype/alerts',
+        redirectTo: '/bootstrap/alerts',
         pathMatch: 'full'
       },
       { path: '**', component: AlertsComponent },
@@ -58,4 +58,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ExampleBootstrapPrototypeRoutingModule { }
+export class ExampleBootstrapRoutingModule { }
