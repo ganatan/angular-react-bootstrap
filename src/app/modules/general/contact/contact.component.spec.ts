@@ -11,9 +11,10 @@ describe('ContactComponent', () => {
     await TestBed.configureTestingModule({
       imports: [
         RouterTestingModule
-      ],
-      declarations: [ContactComponent]
-    }).compileComponents();
+      ],      
+      declarations: [ ContactComponent ]
+    })
+    .compileComponents();
   });
 
   beforeEach(() => {
