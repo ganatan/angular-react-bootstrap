@@ -7,10 +7,10 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
 const routes: Routes = [
   { path: '', component: HomeComponent, },
   {
-    path: 'bootstrap-prototype',
-    loadChildren: () => import('./modules/application/example-bootstrap-prototype/example-bootstrap-prototype.module')
-      .then(mod => mod.ExampleBootstrapPrototypeModule)
-  },  
+    path: 'bootstrap',
+    loadChildren: () => import('./modules/application/example-bootstrap/tutorial.module')
+      .then(mod => mod.TutorialModule)
+  },
   {
     path: 'contact',
     loadChildren: () => import('./modules/general/contact/contact.module')
@@ -22,9 +22,14 @@ const routes: Routes = [
       .then(mod => mod.AboutModule)
   },
   {
-    path: 'signin',
-    loadChildren: () => import('./modules/general/signin/signin.module')
-      .then(mod => mod.SigninModule)
+    path: 'login',
+    loadChildren: () => import('./modules/general/login/login.module')
+      .then(mod => mod.LoginModule)
+  },
+  {
+    path: 'signup',
+    loadChildren: () => import('./modules/general/signup/signup.module')
+      .then(mod => mod.SignupModule)
   },
   { path: '**', component: NotFoundComponent }
 ];
