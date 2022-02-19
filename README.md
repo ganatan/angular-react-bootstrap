@@ -1,6 +1,6 @@
 # Angular 13 Example Bootstrap
 
-> An Angular starter kit featuring [Angular 13.2.1](https://angular.io), [Angular CLI 13.2.2](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 13.2.3](https://angular.io), [Angular CLI 13.2.4](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -23,9 +23,6 @@ git clone https://github.com/ganatan/angular-bootstrap.git
 
 # download the example or clone the repo from gitlab
 git clone https://gitlab.com/ganatan/angular-bootstrap.git
-
-# download the example or clone the repo from bitbucket
-git clone https://bitbucket.org/ganatan/angular-bootstrap.git
 
 
 # change directory
