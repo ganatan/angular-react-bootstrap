@@ -1,6 +1,6 @@
 # Angular 13 Example Bootstrap
 
-> An Angular starter kit featuring [Angular 13.2.6](https://angular.io), [Angular CLI 13.2.6](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 13.3.0](https://angular.io), [Angular CLI 13.3.0](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
