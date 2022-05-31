@@ -1,32 +1,42 @@
-# Angular 13 Example Bootstrap
+# Angular 13 & React 18 Examples Bootstrap
 
-> An Angular starter kit featuring [Angular 13.3.4](https://angular.io), [Angular CLI 13.3.3](https://cli.angular.io/)
+<table>
+<tr>
+<td>
+  <a href="https://www.ganatan.com/en">
+    <img src="./img/ganatan-about-github.png" align="right"
+    alt="Ganatan Angular Example routing" width="140" height="140">
+  </a>
 
-> it's part of a repo series designed to create a Web Application with Angular
+it's part of a repo series designed to create a **Web Application with Angular 13**
 
-# Web Application Live Demo
-<p align="center">
-  <p align="center">
-    <a href="https://angular.ganatan.com/">
-      <img src="https://media.giphy.com/media/9BuBBLc7keCgRojp92/giphy.gif" alt="Angular 13 Example 
-      Application"/>
-    </a>
-  </p>
-</p>
 
-## Quick start
+* Featuring [**Angular 13.3.10**](https://github.com/angular/angular/releases) & [**Angular CLI 13.3.7**](https://github.com/angular/angular-cli/releases/)
+
+
+* See the [**Live demo**](#angular-live-demo), Test the repo with [**Quick start**](#angular-quick-start) and for more information Read the step by step [**Tutorial**](#angular-tutorial) or read the [**Getting started**](#angular-getting-started)
+
+
+it's part of a repo series designed to create a **Web Application with React 18**
+
+
+* Featuring [**React 18.1.0**](https://github.com/facebook/react/releases) & [**Create-react-app 5.0.1**](https://github.com/facebook/create-react-app/releases)
+
+
+
+# [Angular Quick start](#angular-quick-start)
 
 ```bash
-# select a repo
+# choose a repo
 # download the example or clone the repo from github
-git clone https://github.com/ganatan/angular-bootstrap.git
+git clone https://github.com/ganatan/angular-react-bootstrap.git
 
 # download the example or clone the repo from gitlab
-git clone https://gitlab.com/ganatan/angular-bootstrap.git
-
+git clone https://gitlab.com/ganatan/angular-react-bootstrap.git
 
 # change directory
-cd angular-bootstrap
+cd angular-react-bootstrap
+cd angular
 
 # install the repo with npm
 npm install
@@ -37,25 +47,67 @@ npm start
 ```
 in your browser go to [http://localhost:4200](http://localhost:4200) 
 
-## Getting Started
 
-### Installation
+# [React Quick start](#react-quick-start)
+
+```bash
+# choose a repo
+# download the example or clone the repo from github
+git clone https://github.com/ganatan/angular-react-bootstrap.git
+
+# download the example or clone the repo from gitlab
+git clone https://gitlab.com/ganatan/angular-react-bootstrap.git
+
+# change directory
+cd angular-react-bootstrap
+cd react
+
+# install the repo with npm
+npm install
+
+# start the server
+npm start
+
+```
+in your browser go to [http://localhost:3000](http://localhost:3000) 
+
+
+# [Angular Getting started](#angular-getting-started)
+
+
+## Installation
 * `npm install` (installing dependencies)
 * `npm outdated` (verifying dependencies)
 
-### Developpement
+## Development
 * `npm run start`
-* in your browser [http://localhost:4200](http://localhost:4200) 
+* in your browser go to [http://localhost:4200](http://localhost:4200) 
 
-### Production 
+## Production 
 * `npm run build`
 
 ## Tests
 * `npm run test`
 
-### Prototype Bootstrap 5
-* `change directory` cd ui
-* launch html pages in your browser
+
+
+# [React Getting started](#react-getting-started)
+
+
+## Installation
+* `npm install` (installing dependencies)
+* `npm outdated` (verifying dependencies)
+
+## Development
+* `npm run start`
+* in your browser go to [http://localhost:3000](http://localhost:3000) 
+
+## Production 
+* `npm run build`
+
+## Tests
+* `npm run test`
+
 
 
 ### Author
