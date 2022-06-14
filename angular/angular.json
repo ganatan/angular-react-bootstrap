@@ -32,21 +32,19 @@
               "src/assets/params/css/fonts.googleapis.min.css",
               "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "1mb",
+                  "maximumWarning": "500kb",
                   "maximumError": "1mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "4kb",
+                  "maximumWarning": "2kb",
                   "maximumError": "4kb"
                 }
               ],
@@ -116,7 +114,6 @@
       }
     }
   },
-  "defaultProject": "angular-starter",
   "cli": {
     "defaultCollection": "@angular-eslint/schematics"
   }
