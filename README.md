@@ -36,7 +36,7 @@ git clone https://github.com/ganatan/angular-react-bootstrap.git
 git clone https://gitlab.com/ganatan/angular-react-bootstrap.git
 
 # change directory
-cd angular-angular-bootstrap
+cd angular-react-bootstrap
 cd angular
 
 # install the repo with npm
