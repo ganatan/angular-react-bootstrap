@@ -21,7 +21,7 @@ to create a **Web Application with Angular 13**
 to create a **Web Application with React 18**
 
 
-* Featuring [**React 18.1.0**](https://github.com/facebook/react/releases) & [**Create-react-app 5.0.1**](https://github.com/facebook/create-react-app/releases)
+* Featuring [**React 18.2.0**](https://github.com/facebook/react/releases) & [**Create-react-app 5.0.1**](https://github.com/facebook/create-react-app/releases)
 
 
 
