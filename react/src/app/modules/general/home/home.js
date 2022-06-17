@@ -25,23 +25,23 @@ class Home extends React.Component {
           <div className="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center mb-2">
             <h1 className="h5">
               <i className="fas fa-laptop fa-lg me-2 text-primary"></i>
-              { this.name }
+              {this.name}
               <i className="fas fa-mobile-alt fa-lg ms-2 text-primary"></i>
             </h1>
           </div>
           <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-dark mb-2">
             <h2 className="h5">
-              { this.version }<i className="fab fa-react fa-lg ms-2"></i>
+              {this.version}<i className="fab fa-react fa-lg ms-2"></i>
             </h2>
           </div>
           <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-primary mb-2">
             <h2 className="h5">
-              { this.bootstrap }<i className="fab fa-bootstrap fa-lg ms-2"></i>
+              {this.bootstrap}<i className="fab fa-bootstrap fa-lg ms-2"></i>
             </h2>
           </div>
           <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-success mb-2">
             <h2 className="h5">
-              { this.fontawesome }<i className="fab fa-font-awesome-flag fa-lg ms-2"></i>
+              {this.fontawesome}<i className="fab fa-font-awesome-flag fa-lg ms-2"></i>
             </h2>
           </div>
         </div>
@@ -58,7 +58,7 @@ class Home extends React.Component {
                 <div className="card-header">
                   <div className="row">
                     <div className="col-10 col-xl-10">
-                      <h5 className="card-title">Bootstrap</h5>
+                      <h4 className="card-title h5">Bootstrap</h4>
                     </div>
                     <div className="col-2 col-xl-2">
                       <i className="fab fa-bootstrap fa-lg text-primary"></i>
@@ -76,7 +76,7 @@ class Home extends React.Component {
               <div className="card-header">
                 <div className="row">
                   <div className="col-10 col-xl-10">
-                    <h5 className="card-title">Services</h5>
+                    <h4 className="card-title h5">Services</h4>
                   </div>
                   <div className="col-2 col-xl-2">
                     <i className="fas fa-handshake fa-lg text-primary"></i>
@@ -93,7 +93,7 @@ class Home extends React.Component {
               <div className="card-header">
                 <div className="row">
                   <div className="col-10 col-xl-10">
-                    <h5 className="card-title">Components</h5>
+                    <h4 className="card-title h5">Components</h4>
                   </div>
                   <div className="col-2 col-xl-2">
                     <i className="far fa-clone  fa-lg text-primary"></i>
@@ -110,7 +110,7 @@ class Home extends React.Component {
               <div className="card-header">
                 <div className="row">
                   <div className="col-10 col-xl-10">
-                    <h5 className="card-title">Reactive Forms</h5>
+                    <h4 className="card-title h5">Reactive Forms</h4>
                   </div>
                   <div className="col-2 col-xl-2">
                     <i className="far fa-file-alt fa-lg text-primary"></i>
@@ -127,7 +127,7 @@ class Home extends React.Component {
               <div className="card-header">
                 <div className="row">
                   <div className="col-10 col-xl-10">
-                    <h5 className="card-title">Template Driven Forms</h5>
+                    <h4 className="card-title h5">Template Driven Forms</h4>
                   </div>
                   <div className="col-2 col-xl-2">
                     <i className="far fa-file-alt fa-lg text-primary"></i>
