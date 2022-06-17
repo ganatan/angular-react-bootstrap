@@ -87,8 +87,12 @@ in your browser go to [http://localhost:3000](http://localhost:3000)
 ## Production 
 * `npm run build`
 
+## Linter
+* `npm run lint`
+
 ## Tests
 * `npm run test`
+* `npm run coverage`
 
 
 
@@ -106,8 +110,12 @@ in your browser go to [http://localhost:3000](http://localhost:3000)
 ## Production 
 * `npm run build`
 
+## Linter
+* `npm run lint`
+
 ## Tests
 * `npm run test`
+* `npm run coverage`
 
 
 
