@@ -14,21 +14,21 @@ export class CollapsesComponent {
 
   closeCollapse() {
     const myCollapse = document.getElementById('collapseWidthJavascript')
-    const bsCollapse = new bootstrap.Collapse(myCollapse, {
+    new bootstrap.Collapse(myCollapse, {
       hide: true,
     })
   }
 
   showCollapse() {
     const myCollapse = document.getElementById('collapseWidthJavascript')
-    const bsCollapse = new bootstrap.Collapse(myCollapse, {
+    new bootstrap.Collapse(myCollapse, {
       show: true,
     })
   }
 
   toggleCollapse() {
     const myCollapse = document.getElementById('collapseWidthJavascript')
-    const bsCollapse = new bootstrap.Collapse(myCollapse, {
+    new bootstrap.Collapse(myCollapse, {
       toggle: true,
     })
   }

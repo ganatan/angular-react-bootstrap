@@ -51,6 +51,11 @@ class ExampleBootstrap extends React.Component {
                     </NavLink>
                   </li>
                   <li>
+                    <NavLink to="/bootstrap/list-group" className="link-dark rounded"><i
+                      className="fab fa-battle-net text-primary mt-1 me-2"></i>List-group
+                    </NavLink>
+                  </li>
+                  <li>
                     <NavLink to="/bootstrap/modal" className="link-dark rounded"><i
                       className="fab fa-canadian-maple-leaf text-primary mt-1 me-2"></i>Modal
                     </NavLink>
@@ -96,16 +101,6 @@ class ExampleBootstrap extends React.Component {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/bootstrap/radio" className="link-dark rounded">
-                      <i className="fas fa-cart-plus text-primary mt-1 me-2"></i>Radio
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/bootstrap/select" className="link-dark rounded">
-                      <i className="fab fa-centos text-primary mt-1 me-2"></i>Select
-                    </NavLink>
-                  </li>
-                  <li>
                     <NavLink to="/bootstrap/tables" className="link-dark rounded">
                       <i className="fas fa-chart-line text-primary mt-1 me-2"></i>Tables
                     </NavLink>
@@ -129,11 +124,6 @@ class ExampleBootstrap extends React.Component {
                   <li>
                     <NavLink to="/bootstrap/breadcrumb" className="link-dark rounded">
                       <i className="fab fa-app-store text-primary mt-1 me-2"></i>Breadcrumb
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/bootstrap/images" className="link-dark rounded">
-                      <i className="fab fa-battle-net text-primary mt-1 me-2"></i>Images
                     </NavLink>
                   </li>
                   <li>
