@@ -56,7 +56,7 @@ class Home extends React.Component {
         </div>
         <div className="row pt-2">
           <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2">
-            <div className="nga-card bg-light mb-3">
+            <div className="card nga-card bg-light mb-3">
               <Link to="/bootstrap">
                 <div className="card-header">
                   <div className="row">
@@ -75,7 +75,7 @@ class Home extends React.Component {
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2">
-            <div className="nga-card bg-light mb-3">
+            <div className="card nga-card bg-light mb-3">
               <div className="card-header">
                 <div className="row">
                   <div className="col-10 col-xl-10">
@@ -92,7 +92,7 @@ class Home extends React.Component {
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2">
-            <div className="nga-card bg-light mb-3">
+            <div className="card nga-card bg-light mb-3">
               <div className="card-header">
                 <div className="row">
                   <div className="col-10 col-xl-10">
@@ -109,7 +109,7 @@ class Home extends React.Component {
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2">
-            <div className="nga-card bg-light mb-3">
+            <div className="card nga-card bg-light mb-3">
               <div className="card-header">
                 <div className="row">
                   <div className="col-10 col-xl-10">
@@ -126,7 +126,7 @@ class Home extends React.Component {
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2">
-            <div className="nga-card bg-light mb-3">
+            <div className="card nga-card bg-light mb-3">
               <div className="card-header">
                 <div className="row">
                   <div className="col-10 col-xl-10">
