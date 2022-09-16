@@ -63,7 +63,7 @@ class App extends React.Component {
 
               <form className="d-flex">
                 <Link to="/signup">
-                  <button type="button" className="btn btn-sm nga-btn-navbar me-2"><i className="fas fa-user-plus me-2"></i>Sign
+                  <button type="button" className="btn btn-sm btn-primary me-2"><i className="fas fa-user-plus me-2"></i>Sign
                     up</button>
                 </Link>
                 <Link to="/login">
