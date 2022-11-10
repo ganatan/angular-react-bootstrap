@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
     this.meta.updateTag(
       {
         name: 'description',
-        content: 'This application was developed with Angular version 14.2.9 and bootstrap 5.2.2' +
+        content: 'This application was developed with Angular version 14.2.10 and bootstrap 5.2.2' +
           ' It applies Routing, Lazy loading, Server side rendering and Progressive Web App (PWA)'
       });
 
