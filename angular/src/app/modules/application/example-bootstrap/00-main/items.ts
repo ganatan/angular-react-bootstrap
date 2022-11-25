@@ -1,5 +1,19 @@
-// eslint-disable-next-line
-export const ITEMS: any[] =
+export class Item {
+
+  id: number;
+  name: string;
+  link: string;
+  icon: string;
+
+  constructor() {
+    this.id = 0;
+    this.name = '';
+    this.link = '';
+    this.icon = '';
+  }
+}
+
+export const ITEMS: Item[] =
   [
     { id: 1, name: 'Accordions', link: 'accordions', icon: 'far fa-address-card' },
     { id: 2, name: 'Alerts', link: 'alerts', icon: 'fas fa-user' },
