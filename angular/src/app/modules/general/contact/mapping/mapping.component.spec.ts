@@ -11,9 +11,7 @@ describe('MappingComponent', () => {
       declarations: [ MappingComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(MappingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export const ITEMS: any[] =
   [
     { id: 1, name: 'Accordions', link: 'accordions', icon: 'far fa-address-card' },

@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-example-bootstrap',
@@ -7,8 +6,5 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tutorial.component.css']
 })
 export class TutorialComponent {
-
-  constructor() {
-  }
 
 }

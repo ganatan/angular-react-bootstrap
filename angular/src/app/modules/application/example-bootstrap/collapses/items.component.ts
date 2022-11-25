@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
+// eslint-disable-next-line
 declare const bootstrap: any;
 
 @Component({
@@ -8,9 +9,6 @@ declare const bootstrap: any;
   styleUrls: ['./items.component.css']
 })
 export class CollapsesComponent {
-
-  constructor() { }
-
 
   closeCollapse() {
     const myCollapse = document.getElementById('collapseWidthJavascript')
