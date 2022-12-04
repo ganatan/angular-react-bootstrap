@@ -10,7 +10,7 @@
 
 it's part of a repo series designed 
 
-to create a **Web Application with Angular 14**
+to create a **Web Application with Angular 15**
 
 * Featuring [**Angular 15.0.2**](https://github.com/angular/angular/releases) & [**Angular CLI 15.0.2**](https://github.com/angular/angular-cli/releases/)
 
