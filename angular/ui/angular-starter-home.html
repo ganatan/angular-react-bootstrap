@@ -4,20 +4,90 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>angular-starter-home</title>
+  <title>angular-home</title>
 
   <link href="assets/fontawesome/css/all.min.css" rel="stylesheet">
   <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/params/css/fonts.googleapis.min.css" rel="stylesheet">
 
-  <link href="assets/params/css/body.css" rel="stylesheet">
-  <link href="assets/params/css/header.css" rel="stylesheet">
-  <link href="assets/params/css/footer.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 3.5rem;
+      font-family: "Roboto", sans-serif;
+    }
+  </style>
 
+  <!-- HEADER -->
+  <style>
+    .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+      color: white;
+      font-weight: 500;
+      border-top: 1px solid #09238d;
+      border-bottom: 1px solid #09238d;
+    }
+
+    .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+      color: yellow;
+      border-top: 1px solid yellow;
+      border-bottom: 1px solid yellow;
+    }
+
+    .nga-navbar {
+      -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
+      background-color: #09238d;
+    }
+
+    .nga-logo {
+      font-weight: 700;
+    }
+
+    .nga-logo:hover {
+      color: rgba(255, 255, 255, 0.75);
+    }
+  </style>
+
+  <!-- FOOTER -->
+  <style>
+    .nga-footer {
+      background-color: #212121;
+      color: white;
+    }
+
+    .nga-footer a {
+      color: white;
+      text-decoration: none
+    }
+
+    .nga-footer a:hover,
+    .nga-footer a:focus {
+      color: yellow;
+      text-decoration: underline;
+    }
+
+    .nga-footer .hint {
+      background-color: #1976d2;
+    }
+
+    .nga-footer .hint:hover {
+      opacity: 0.8;
+    }
+  </style>
+
+  <!-- HOME -->
   <style>
     .nga-card {
-      border: 1px solid rgba(0, 0, 0, 0.125);
-      border-radius: 0.25rem;
+      display: block;
+      background-color: rgba(255, 255, 255, .8);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+      border-radius: 2px;
+      transition: all .2s ease-in-out;
+      cursor: pointer;
+    }
+
+    .nga-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
     }
 
     .nga-card a {
@@ -27,14 +97,32 @@
 
     .nga-card a:hover {
       color: #0d6efd;
+      text-decoration: none;
     }
 
-    .nga-card:hover {
-      border: 1px solid #99ccff;
-      color: #0d6efd;
-      box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-      transition: box-shadow 0.3s ease-in-out;
+    /*    .nga-card-step {
+      box-shadow: 0 1px 1px rgba(0, 0, 0, .04), 0 3px 3px rgba(0, 0, 0, .09);
+      margin: 4px;
+      cursor: pointer;
+      text-decoration: none;
     }
+
+    .nga-card-step:hover {
+      box-shadow: 0 4px 4px rgba(0, 0, 0, .09), 0 4px 4px rgba(0, 0, 0, .13);
+      border-radius: 5px;
+      color: #0d6efd;
+
+    }
+
+    .nga-card-step a {
+      color: black;
+      text-decoration: none;
+    }
+
+    .nga-card-step a:hover {
+      color: #0d6efd;
+      text-decoration: none;
+    } */
   </style>
 
 </head>
@@ -55,17 +143,17 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link nga-nav-link" aria-current="page" href="/">
+            <a class="nav-link" aria-current="page" href="/">
               <i class="fas fa-home me-1"></i>Home</a>
           </li>
         </ul>
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link nga-nav-link" aria-current="page" href="about">
+            <a class="nav-link active" aria-current="page" href="about">
               <i class="far fa-question-circle me-1"></i>About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nga-nav-link" aria-current="page" href="contact">
+            <a class="nav-link" aria-current="page" href="contact">
               <i class="fas fa-envelope me-1"></i>Contact</a>
           </li>
         </ul>
@@ -86,23 +174,23 @@
         <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center mb-2">
           <h1 class="h5">
             <i class="fas fa-laptop fa-lg me-2 text-primary"></i>
-            angular-starter
+            angular-bootstrap
             <i class="fas fa-mobile-alt fa-lg ms-2 text-primary"></i>
           </h1>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-danger mb-2">
           <h2 class="h5">
-            Angular 14.2.2<i class="fa-brands fa-angular fa-lg ms-2"></i>
+            Angular 15.1.2<i class="fab fa-angular fa-lg ms-2"></i>
           </h2>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-primary mb-2">
           <h2 class="h5">
-            Bootstrap 5.2.1<i class="fa-brands fa-bootstrap fa-lg ms-2"></i>
+            Bootstrap 5.2.3<i class="fab fa-bootstrap fa-lg ms-2"></i>
           </h2>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-success mb-2">
           <h2 class="h5">
-            Font Awesome 6.2.0<i class="fa-solid fa-font-awesome fa-lg ms-2"></i>
+            Font Awesome 6.2.1<i class="fab fa-font-awesome-flag fa-lg ms-2"></i>
           </h2>
         </div>
       </div>
@@ -114,7 +202,7 @@
       </div>
       <div class="row pt-2">
         <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2">
-          <div class="card nga-card mb-2">
+          <div class="card nga-card bg-light mb-3">
             <a href="/bootstrap">
               <div class="card-header">
                 <div class="row">
@@ -133,7 +221,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2">
-          <div class="card nga-card mb-2">
+          <div class="card nga-card bg-light mb-3">
             <div class="card-header">
               <div class="row">
                 <div class="col-10 col-xl-10">
@@ -150,7 +238,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2">
-          <div class="card nga-card mb-2">
+          <div class="card nga-card bg-light mb-3">
             <div class="card-header">
               <div class="row">
                 <div class="col-10 col-xl-10">
@@ -167,7 +255,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2">
-          <div class="card nga-card mb-2">
+          <div class="card nga-card bg-light mb-3">
             <div class="card-header">
               <div class="row">
                 <div class="col-10 col-xl-10">
@@ -184,7 +272,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2">
-          <div class="card nga-card mb-2">
+          <div class="card nga-card bg-light mb-3">
             <div class="card-header">
               <div class="row">
                 <div class="col-10 col-xl-10">
@@ -208,7 +296,7 @@
   <footer class="nga-footer">
     <div class="py-3 text-center" style="background-color: black;">
       <div class="container">
-        <a href="https://www.ganatan.com/"> www.ganatan.com</a>
+        2021 :<a href="https://www.ganatan.com/"> www.ganatan.com</a>
       </div>
     </div>
   </footer>
