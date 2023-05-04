@@ -3,8 +3,8 @@ export const environment = {
   application:
   {
     name: 'angular-bootstrap',
-    version: 'Angular 15.1.5',
+    version: 'Angular 16.0.0',
     bootstrap: 'Bootstrap 5.2.3',
-    fontawesome: 'Font Awesome 6.3.0',
+    fontawesome: 'Font Awesome 6.4.0',
   }
 };
