@@ -3,15 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-about',
   standalone: true,
   imports: [CommonModule, RouterLink, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './about.component.html',
+  styleUrl: './about.component.css'
 })
-export class AppComponent {
-  title = 'angular-routing';
-  footerUrl = 'https://www.ganatan.com';
-  footerLink = 'www.ganatan.com';
-}
+export class AboutComponent {
 
+}
