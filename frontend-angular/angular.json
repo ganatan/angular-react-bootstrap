@@ -31,10 +31,10 @@
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/assets/params/css/fonts.googleapis.min.css",
-              "src/styles.css"
+              "src/styles.css"              
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"              
             ]
           },
           "configurations": {
@@ -47,8 +47,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kB",
-                  "maximumError": "4kB"
+                  "maximumWarning": "4kB",
+                  "maximumError": "8kB"
                 }
               ],
               "outputHashing": "all"
@@ -116,8 +116,7 @@
   },
   "cli": {
     "schematicCollections": [
-      "@angular-eslint/schematics"
-    ],
-    "analytics": false
+      "angular-eslint"
+    ]
   }
 }
