@@ -1,4 +1,4 @@
-# Angular 19 & React 18 Examples Bootstrap
+# Angular 20 & React 18 Examples Bootstrap
 
 <table>
 <tr>
@@ -10,8 +10,8 @@
 
 it's part of a repo series designed 
 
-to create a **Web Application with Angular 19**
-* Featuring [**Angular 19.2.10**](https://github.com/angular/angular/releases) & [**Angular CLI 19.2.11**](https://github.com/angular/angular-cli/releases/)
+to create a **Web Application with Angular 20**
+* Featuring [**Angular 20.0.0**](https://github.com/angular/angular/releases) & [**Angular CLI 20.0.0**](https://github.com/angular/angular-cli/releases/)
 
 
 * See the [**Live demo**](#angular-live-demo), Test the repo with [**Quick start**](#angular-quick-start) and for more information Read the step by step [**Tutorial**](#angular-tutorial) or read the [**Getting started**](#angular-getting-started)
