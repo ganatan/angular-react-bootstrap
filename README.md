@@ -17,10 +17,10 @@ to create a **Web Application with Angular 20**
 * See the [**Live demo**](#angular-live-demo), Test the repo with [**Quick start**](#angular-quick-start) and for more information Read the step by step [**Tutorial**](#angular-tutorial) or read the [**Getting started**](#angular-getting-started)
 
 
-to create a **Web Application with React 18**
+to create a **Web Application with React 19**
 
 
-* Featuring [**React 18.3.1**](https://github.com/facebook/react/releases) & [**Create-react-app 5.0.1**](https://github.com/facebook/create-react-app/releases)
+* Featuring [**React 19.1.0**](https://github.com/facebook/react/releases) & [**Create-react-app 5.0.1**](https://github.com/facebook/create-react-app/releases)
 
 
 
